@@ -11,33 +11,140 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Портфолио</title>
+<Script src="Скрипты.js"></Script> 
+<script src="https://atuin.ru/demo/js/anime.min.js"></script>
+<title>Портфолио</title>
   </head>
-  <body>
+  <body style="background-image:url(https://avatars.mds.yandex.net/i?id=f6ef20f126c21314a2eb3ae6250db323_l-4552862-images-thumbs&n=13) ;">
     <div class="head">
-        <div  style="left: 50%;align-items: center;"><H1>    Шапка </H1></div> 
+        <div  style="left: 50%;align-items: center;"><H1>    Роман Евгений Димитриевич </H1></div> 
     </div>
-    
         <div class="block1"> 
             <div class="block1-1">
               <div style="width: 40%;text-align: center;">
-                <a href="#" title="Моя фотка">
-                <img  class="img-fluid" src="https://avatars.mds.yandex.net/i?id=e376c2e96f75c284bc9c0730694f1314_l-5232689-images-thumbs&n=13" alt="Фото"></a>
-                <h6>Фото</h6>
+                <a href="https://www.instagram.com/_evgesha_roma_/" title="Роман Евгений">
+                <img  class="img-fluid" src="Роман_Евгений.jpg" alt="Роман_Евгений.jpg"></a>
               </div>
               <div style="width: 40%;text-align: center;">
-                <a href="#" title="О себе">
-                <img  class="img-fluid" src="https://avatars.mds.yandex.net/i?id=30ee3775f4b0929e4cdb5d12a5a31b19_l-5235999-images-thumbs&n=13" alt="Фото"></a>
-                <h6>Текст</h6>
+                <h2>
+                    Всем привет, меня зовут Евгений. Я учусь в <a href="http://www.mtp.by/"> Минском Колледже предпринимательства</a> на ПОИТ 3 курс
+                </h2>
               </div>
             </div>
         </div>
-        <div style="display : flex;align-items: center;flex-direction: column;justify-content:space-evenly;">
-            <div style="width: 60%; "><a href="https://atuin.ru/blog/slajder-s-menyayushhimisya-foto-na-css/" title="Слайдер">
-            <img   class="img-fluid" src="https://avatars.mds.yandex.net/i?id=e376c2e96f75c284bc9c0730694f1314_l-5232689-images-thumbs&n=13" alt="Фото"></a></div>
-             
-            <div><h6>Фото</h6></div>
+        <div class="slider">
+          <div class="nav">
+              <div class="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>            
+              </div>    
+              <div class="next">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>                
+              </div>
+          </div>
+          <div class="item is-active" style="background-image: url(Роман_Евгений.jpg)">
+              <div class="content">
+                  <div class="item-title">Заголовок</div>
+                  <div class="item-text">Описание</div>
+              </div>
+              <div class="imgs">
+                  <div class="grid">
+                      <div class="img img-1">
+                          <img src="Роман_Евгений.jpg"/>
+                      </div>
+                      <div class="img img-2">
+                          <img src="Роман_Евгений.jpg"/>
+                      </div>
+                      <div class="img img-3">
+                          <img src="Роман_Евгений.jpg"/>
+                      </div>
+                      <div class="img img-4">
+                          <img src="Роман_Евгений.jpg"/>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Еще слайды -->
+          
+          <div class="item" style="background-image: url(bg-photo.jpg)">
+              <div class="content">
+                  <div class="item-title">Заголовок</div>
+                  <div class="item-text">Описание</div>
+              </div>
+              <div class="imgs">
+                  <div class="grid">
+                      <div class="img img-1">
+                          <img src="photo-1.jpg"/>
+                      </div>
+                      <div class="img img-2">
+                          <img src="photo-2.jpg"/>
+                      </div>
+                      <div class="img img-3">
+                          <img src="photo-3.jpg"/>
+                      </div>
+                      <div class="img img-4">
+                          <img src="photo-4.jpg"/>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </div>
+
+      <div class="license-wr">
+        <div class="license">
+            <div>
+                <a href="license-1.jpg">
+                    <img src="license_thumb.jpg" alt="" />
+                </a>
+            </div>
+            <div>
+                <a href="license-2.jpg">
+                    <img src="license_thumb.jpg" alt="" />
+                </a>
+            </div>
+            <div>
+                <a href="license-3.jpg">
+                    <img src="license_thumb.jpg" alt="" />
+                </a>
+            </div>
+            <div>
+                <a href="license-4.jpg">
+                    <img src="license_thumb.jpg" alt="" />
+                </a>
+            </div>
+            
         </div>
+    </div>
+
+    <div class="poster-images">
+        <a href="#link">
+            <img src="Кот.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="photo_2022-06-16_11-35-55.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img style="margin-left: 10px ;" src="уцйфавы.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="2.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="3.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="photo_2022-06-16_11-36-03.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="photo_2022-06-16_11-36-01.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="photo_2022-06-16_11-36-11.jpg" alt="">
+        </a>
+        <a href="#link">
+            <img src="photo_2022-06-16_11-36-14.jpg" alt="">
+        </a>
+    </div> 
     <!--<img style="margin-left: auto;margin-right: auto;" class="img-fluid" src="https://avatars.mds.yandex.net/i?id=56d107d87db15aa583680adf1811af32-7045468-images-thumbs&n=13" alt="">
      Дополнительный JavaScript; выберите один из двух! -->
     <!-- Вариант 1: Bootstrap в связке с Popper -->
