@@ -16,7 +16,8 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 .block1-1{
     flex-direction: row;
@@ -401,3 +402,4 @@
     grid-column-end: 4;
     clip-path: polygon(5.94% 28.66%, 100.61% -0.67%, 101.1% 108.57%, 5.4% 126.28%);
 }
+
